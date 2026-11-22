@@ -1,4 +1,4 @@
-;; Append these calls to a copy of code/50_q3.rkt and compare with output below.
+;; Append these calls to a copy of code/53_q3.rkt and compare with output below.
 (define t1 '(4 (2 (1 () ()) (3 () ())) (6 (5 () ()) (7 () ()))))
 (print-inorder t1)
 (print-all-traversals t1)
