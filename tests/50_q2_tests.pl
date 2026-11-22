@@ -1,5 +1,5 @@
 :- begin_tests(equations).
-:- ensure_loaded('../code/53_q2.pl').
+:- ensure_loaded('../code/50_q2.pl').
 test(example) :- all_equations([4,2,5,3],["4*2-5=3","4*2=5+3","4-2=5-3","4/2=5-3","4=2*(5-3)","4=2+(5-3)","4=2+5-3"]).
 test(no_solution) :- all_equations([2,3,4],[]).
 test(simple) :- all_equations([2,4,8],["2*4=8"]).

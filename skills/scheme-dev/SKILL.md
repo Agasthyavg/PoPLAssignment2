@@ -11,7 +11,7 @@ Give helpers descriptive names and explain their recursive meaning, base case, a
 
 # Run and test
 
-Run `racket code/53_q3.rkt` and `racket code/53_q4.rkt` to check silent loading. For functional tests, append the corresponding test snippet to a temporary copy of the solution and run that copy, matching how the grader adds calls. Check exact displayed output and trailing newlines. Keep test-only helpers out of the solution file.
+Run `racket code/50_q3.rkt` and `racket code/50_q4.rkt` to check silent loading. For functional tests, append the corresponding test snippet to a temporary copy of the solution and run that copy, matching how the grader adds calls. Check exact displayed output and trailing newlines. Keep test-only helpers out of the solution file.
 
 # Self-review checklist
 

@@ -11,7 +11,7 @@ Use only the permitted libraries (`lists`, `apply`, `yall`, `aggregate`). Do not
 
 # Run and test
 
-From the repository root, use `swipl -q -f code/53_q1.pl -g main -t halt` for P1 output, or replace `main` with a quoted goal for other predicates. Run a separate test file with `swipl -q -s tests/53_q1_tests.pl -g run_tests -t halt`; use the corresponding P2 filename for P2. Verify on 9.x even if a newer version passes.
+From the repository root, use `swipl -q -f code/50_q1.pl -g main -t halt` for P1 output, or replace `main` with a quoted goal for other predicates. Run a separate test file with `swipl -q -s tests/50_q1_tests.pl -g run_tests -t halt`; use the corresponding P2 filename for P2. Verify on 9.x even if a newer version passes.
 
 # Self-review checklist
 

@@ -1,4 +1,4 @@
-;; Append to a copy of code/53_q4.rkt. Each line should print #t.
+;; Append to a copy of code/50_q4.rkt. Each line should print #t.
 (display (equal? (insert-if-short 42 '((1 2) (3 4 5) (6) ()) 3) '((42 1 2) (3 4 5) (42 6) (42)))) (newline)
 (display (equal? (insert-if-short 0 '(((1) 2) (3) ((4 5 6) ())) 3) '((0 (0 1) 2) (0 3) (0 (4 5 6) (0))))) (newline)
 (display (equal? (insert-if-short 7 '() 3) '(7))) (newline)
